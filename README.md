@@ -22,6 +22,21 @@ To move beyond "black-box" modeling, I implemented two layers of interpretation:
 - **XGBoost Feature Importance:** Visualized feature gains to identify which vocal markers contribute most to the prediction.
 - **SHAP (Shapely Additive explanations):** Utilized **SHAP beeswarm plots** to understand the impact of each feature on individual predictions, providing clinical transparency.
 
+
+## 📊 Visual Analysis
+
+In this project, I employed both global and local interpretability methods to validate the model's decisions and ensure clinical relevance.
+
+| Feature Importance | SHAP Analysis (XAI) | Confusion Matrix |
+| :---: | :---: | :---: |
+| ![Feature Importance](Feature_Importance.png) | ![SHAP Analysis](shap_plot.png) | ![Confusion Matrix](confusion_matrix.png) |
+
+---
+
+### 🔍 Key Insights:
+* **Feature Importance:** High-frequency vocal tremors like **Jitter:DDP** and **MDVP:Shimmer** emerged as the primary biomarkers for detection.
+* **SHAP Analysis:** Provides a deeper look into how each feature pushes the model's prediction towards or away from a Parkinson's diagnosis.
+* **Model Reliability:** The **Confusion Matrix** demonstrates a high rate of True Positives, which is critical in medical diagnostics to minimize false negatives.
 ---
 
 ## Key Visualizations
