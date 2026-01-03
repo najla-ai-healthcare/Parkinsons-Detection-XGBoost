@@ -38,12 +38,6 @@ The repository includes:
 
 ---
 
-##  Interactive Notebook
-View the full implementation and run the code on Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zkaUpPsqN44HNqBRSiZ72cTiR1g0F0RP?usp=sharing)
-
----
-
 ## 💻 Tech Stack
 - **Language:** Python
 - **Core Libraries:** XGBoost, Scikit-Learn, SHAP
