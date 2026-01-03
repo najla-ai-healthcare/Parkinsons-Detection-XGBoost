@@ -1,5 +1,7 @@
 #  Parkinson’s Disease Detection using XGBoost
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zkaUpPsqN44HNqBRSiZ72cTiR1g0F0RP?usp=sharing)
+
 ## Project Overview
 This project aims to accurately detect Parkinson's Disease using vocal feature measurements. By leveraging the **XGBoost Classifier** and optimizing it through **GridSearchCV**, the model achieves high diagnostic accuracy, which is crucial for early clinical intervention.
 
