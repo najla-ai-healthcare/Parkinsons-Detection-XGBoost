@@ -29,7 +29,7 @@ In this project, I employed both global and local interpretability methods to va
 
 | Feature Importance | SHAP Analysis (XAI) | Confusion Matrix |
 | :---: | :---: | :---: |
-| ![Feature Importance](Feature_Importance.png) | ![SHAP Analysis](shap_plot.png) | ![Confusion Matrix](confusion_metrix.png) |
+| ![Feature Importance](Feature_Importance.png) | ![SHAP Analysis](Shap_Plot.png) | ![Confusion Matrix](Confusion_Metrix.png) |
 
 ---
 
